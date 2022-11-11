@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Noto+Sans:wght@300&family=Open+Sans:ital@0;1&family=PT+Sans+Narrow&family=Roboto:wght@300;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    align-items: center;
+    padding: 0 15px;
+    position: fixed;
+    z-index: 200;
+    background-color: white;
+    width: 100%;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+   
+}
+
+.left img{
+    width: 50%;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    /*: 628px;*/
+}
+
+.center form {
+    display: flex;
+    height: 36px;
+    width: 628px;
+}
+
+.center form input{
+    width: 100%;
+    border-radius: 2px 0 0 2px;
+    font-size: 1.5rem;/*15px*/
+    border: 1px solid #d3d3d3;
+    border-right: none;
+}
+
+.center form button{
+    width: 60px;
+    border-radius: 0 2px 2px 0;
+    border: 1px solid #d3d3d3;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+.center form button:hover{
+    background-color: #e9e8e8;
+}
+
+.center .mic{
+    width: 40px;
+    height: 40px;
+    background-color: #fafafa;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.right a{
+    color: black;
+    margin-left: 15px;
+}
+
+
+.content{
+    height: calc(100vh - 56px);
+    display: flex;
+    
+    
+
+}
+
+aside{
+    height: calc(100vh - 56px);
+    width: 260px;
+    background-color: white;
+    overflow-y: auto;
+    position: fixed;
+    margin-top: 55px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    padding-right: 15px;
+    
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    
+}
+
+.nav-link .ss{
+    margin-left: 21px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.active{
+    background-color: #eee;
+    color: black;
+}
+
+.nav-link span{
+    margin-left: 25px;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.fa-brands,.fa-solid{
+    font-size: 20px;
+    margin-left: 2px;
+}
+
+.bc:hover{
+ background-color: #eee;
+ color: black;
+}
+
+hr{
+width: 95%;
+margin: 15px 0;
+}
+
+nav p{
+    margin-left: 25px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.sign{
+    margin-left: 25px;
+    font-size: 15px;
+    color: rgb(50, 50, 188);
+    border: 1px solid rgb(227, 226, 226);
+    padding: 5px;
+    width: 100px;
+    border-radius: 20px;
+    align-items: center;
+    line-height: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.sign:hover{
+    background-color: rgb(206, 237, 233);
+}
+.sign i{
+font-size:25px;
+}
+
+.sign span{
+    margin-left: 8px;
+}
+
+nav .p2{
+    margin-left: 25px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.main-content{
+    margin-left: 260px;
+    margin-top: 56px;
+}
+
+.btn_first {
+    background-color: black;
+    padding: 6px 11px;
+    margin: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_first a{
+color: white;
+text-decoration: none;
+font-size: 15px;
+}
+
+.main-content button{
+    background-color: rgb(240, 239, 239);
+    padding: 6px 9px;
+    margin: 5px 9px;
+    border-radius: 5px;
+    border: 1px solid rgb(240, 239, 239);
+}
+.main-content button a{
+    color: black;
+text-decoration: none;
+font-size: 15px;
+}
+
+.main-content button:hover{
+    background-color: rgb(235, 234, 234);
+}
+
+.row_2{
+    margin-top:40px;
+}
+
+.card{
+    width:110%;
+    margin: 20px 40px;
+height:  280px;
+transition: all 0.9s;
+}
+
+.card:hover{
+    transform: scale(1.2);
+    z-index: 100;
+}
+
+.card img{
+    border-radius: 15px;
+}
+
+.card-body p{
+    font-size: 12px;
+}
+
+.pd2{
+    position: fixed;
+    z-index: 400;
+    background-color: white;
+    width: 100%;
+}
+
+
+
+
+
+
